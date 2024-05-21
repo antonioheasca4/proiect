@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Actiuni">
+      <UniqueIdentifier>{dc6ae414-a10f-43e1-8d89-3710723c248c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BazaDate">
+      <UniqueIdentifier>{793e0529-06b5-4c55-96bc-4295fa807b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilitati">
+      <UniqueIdentifier>{77461664-495b-42b6-8c02-a1f5058e9749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Admin">
+      <UniqueIdentifier>{ba0c5588-6dca-42a4-85ba-b46cbf2647ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Conexiune">
+      <UniqueIdentifier>{d1dc2dd5-f911-42f8-87ba-80e95aa52050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptii">
+      <UniqueIdentifier>{f50a885e-29e6-4a25-b4d3-dcf1a52eaf1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AAction.h">
+      <Filter>Header Files\Actiuni</Filter>
+    </ClInclude>
+    <ClInclude Include="IAction.h">
+      <Filter>Header Files\Actiuni</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Header Files\Actiuni</Filter>
+    </ClInclude>
+    <ClInclude Include="Register.h">
+      <Filter>Header Files\Actiuni</Filter>
+    </ClInclude>
+    <ClInclude Include="DB.h">
+      <Filter>Header Files\BazaDate</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilitati.h">
+      <Filter>Header Files\Utilitati</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Utilitati</Filter>
+    </ClInclude>
+    <ClInclude Include="Homeworks.h">
+      <Filter>Header Files\Utilitati</Filter>
+    </ClInclude>
+    <ClInclude Include="Compiler.h">
+      <Filter>Header Files\Utilitati</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin.h">
+      <Filter>Header Files\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>Header Files\Conexiune</Filter>
+    </ClInclude>
+    <ClInclude Include="AExceptie.h">
+      <Filter>Header Files\Exceptii</Filter>
+    </ClInclude>
+    <ClInclude Include="CompilerExceptie.h">
+      <Filter>Header Files\Exceptii</Filter>
+    </ClInclude>
+    <ClInclude Include="DBExceptie.h">
+      <Filter>Header Files\Exceptii</Filter>
+    </ClInclude>
+    <ClInclude Include="IExceptie.h">
+      <Filter>Header Files\Exceptii</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Register.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilitati.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Compiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Homeworks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IExceptie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBExceptie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AExceptie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CompilerExceptie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="logServer.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

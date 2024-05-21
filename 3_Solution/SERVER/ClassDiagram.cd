@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AAction">
+    <Position X="29" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AAction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IAction">
+    <Position X="29" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryActions">
+    <Position X="30.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login">
+    <Position X="30" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIEAAgAAAAAAAAAAAAAAAAAAAQAAQAAAA=</HashCode>
+      <FileName>Login.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Register">
+    <Position X="21.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIEAAhAAAAAAAAAAAFACAAAAAAAAQAAAA=</HashCode>
+      <FileName>Register.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DB">
+    <Position X="9.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAQAgAEAAAIIAAgQAAAEAAACBABAQQAAOkAAEEABI=</HashCode>
+      <FileName>DB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Homeworks">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAgAAKAAAAIQAAAAEAAAAggAAQAAAAE=</HashCode>
+      <FileName>Homeworks.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logger">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAIAIAAAAAAACAAAAABAAAQAAAAgAAAAAAA=</HashCode>
+      <FileName>Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Admin">
+    <Position X="6" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAEAAgAQECAABAAAQAAAAgAAUAAAQ=</HashCode>
+      <FileName>Admin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Connection">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEABAFAAAIIUAgCFCwEAAACBAAAQQREAwAAIAAAA=</HashCode>
+      <FileName>Connection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AExceptie">
+    <Position X="25.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAIAAAAACAIAAAAAAAAgAAgAAAAAAAAA=</HashCode>
+      <FileName>AExceptie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompilerExceptie">
+    <Position X="32.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAEACAAAAAAA=</HashCode>
+      <FileName>CompilerExceptie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBExceptie">
+    <Position X="28" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAQAAAACAAAAABA=</HashCode>
+      <FileName>DBExceptie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IExceptie">
+    <Position X="25.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>IExceptie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="tipEroare">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>AExceptie.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
